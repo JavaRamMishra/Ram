@@ -1,0 +1,16 @@
+INSERT INTO `lab2807`.`employ`
+(`eid`,
+`fname`,
+`lname`,
+`depat`)
+VALUES
+(
+8,
+'anuj',
+'sud',
+'auto');
+
+
+select * from `lab2807`.`employ`
+select depat,count(*) from `lab2807`.`employ` where depat ='hr'
+select * from `lab2807`.`employ` where fname like 's%'
